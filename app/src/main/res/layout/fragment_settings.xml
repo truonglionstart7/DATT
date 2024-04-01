@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wave"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Switch
+        android:paddingLeft="15dp"
+        android:id="@+id/darkmode"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/border_login"
+        android:text="Chế độ Tối"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        android:padding="15dp"
+        android:id="@+id/xoa_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_login"
+        android:drawableEnd="@drawable/trash_icon"
+        android:text="Xóa bộ nhớ đệm"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</LinearLayout>
